@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+	<head>
+		<Meta charset="UTF-8"/>
+		<link rel="Stylesheet" href="basic.css"/>
+		<Meta name="Language" content="dutch"/>
+		<Meta name="Author" content="W.T. van Kempen"/>
+		<Meta name="description" content="Restaurant Oud leusden"/>
+		<Meta name="keywords" content="Restaurant Oud leusden, Eten, Reseveren"/>
+		<Meta name="copyright" content="copyright"/>
+		<title>Welkom - Restaurant oud leusden</title>
+	</head>
+	
+	<body>
+		<div class="nav">
+		
+			<img class="logo" src="http://www.restaurantoudleusden.nl/uploads/2/images/RestaurantOudLeusden-logo.png"/>
+			
+			<img class="wifi" src="https://images-na.ssl-images-amazon.com/images/I/41q%2B6q9fneL.jpg"/>
+			
+			<div class="textbox">
+				<h2>Restaurant Oud Leusden, gewoon gastvrij genieten</h2>
+				<h3>Uw diner, feest of vergadering tot in de puntjes verzorgd!</h3>
+			</div class="textbox">
+				
+			<ul>
+				<li><a href="Home.html">Home</a></li>
+				<li class="selected"><a href="Reserveren.html">Reserveren</a></li>
+				<li><a href="Fotos.html">Foto's</a></li>
+				<li><a href="Gastenboek.html">Gastenboek</a></li>
+				<li><a href="Contact.html">Contact</a></li>
+				<li><a href="Vacatures.html">Vacature's</a></li>
+			</ul>
+			
+		</div class ="nav">
+		
+        <div class="main">
+		
+			<h2 class="title">Resevering</h2>
+			<p class="text">Restaurant Oud Leusden beschikt over twee multifunctionele zalen welke voor ieder gezelschap en iedere gelegheid geschikt is.<br><br>
+			In een sfeer van warmte is er volop gelegenheid voor alle denkbare bijeenkomsten. Zoals vergaderingen, bijeenkomsten, recepties, bruiloften, buffetten, koffietafels doch ook voor productpresentaties en seminars.<br><br>
+			De sympathieke service en bediening, de vriendelijk prijzen en onze lange ervaring staan borg voor een geslaagde ontmoeting. Laat u informeren over de diverse arrangementen.</p>
+			
+			
+			<form>
+				<div class="pergegevens">
+					<h2 style="margin: 8px;">Persoonlijke Gegevens</h2>
+					<input type="radio" name="gender" value="male" required> meneer<br>
+					<input type="radio" name="gender" value="female"> mevrouw<br>
+					<input type="radio" name="gender" value="other" > Other<br>
+					<input type="text" id="naam" name="voornaam" placeholder="voornaam.." required><br>
+					<input type="text" id="naam" name="tussenvoegsel" placeholder="tussenvoegsel.."><br>
+					<input type="text" id="naam" name="achternaam" placeholder="Achternaam.." required><br>
+					<input type="text" id="woonplaats" name="woonplaats" placeholder="woonplaats.." required><br>
+					<input type="text" id="postcode" name="postcode" placeholder="Postcode.." required><br>
+					<input type="text" id="huisnummer" name="Huisnummer" placeholder="Huisnummer.." required><br>
+					<input type="text" id="telefoonnummer" name="telefoonnummer" placeholder="Telefoonnummer..(optioneel)"> <br>
+					<input type="email" id="email" name="email" placeholder="Email adres.." required><br>
+				</div class="pergegevens">
+				
+				<div class="ordgegevens">
+					<h2 style="margin: 8px;">Reseverings kenmerken</h2>
+					<input type="text" id="naam" name="naam" placeholder="bedrijfs/familienaam.." required><br>
+					<select class="ex" required>
+						<option value="">Selecteer soort reservering</option>
+						<option value="vergadering">Vergadering</option>
+						<option value="lunch">Lunch</option>
+						<option value="brunch">Brunch</option>
+						<option value="diner">Diner</option>
+						<option value="receptie">Receptie</option>
+					</select><br>
+					<input style="width: 81px;" type="text" id="begintijd" name="begintijd" placeholder="begintijd" required>t/m<input style="width: 81px;" type="text" id="eindtijd" name="posteindtijdcode" placeholder="eindtijd" required><br>
+					<input type="text" id="personen" name="personen" placeholder="personen..(max 60p.)" required><br>
+					<label for="meeting">Datum bestelling : </label><input id="Datum" type="date" required/><br><br>
+					<h3>Extra opties</h3>
+					<input type="radio" name="hapjes" value="true"> extra hapjes.<br>
+					<input type="radio" name="luxehapjes" value="true"> luxueuze hapjes.<br>
+					<input type="radio" name="thee/koffie" value="true"> unlimited thee en koffie. <br>
+					<input type="radio" name="dessert" value="true"> dessert naderhand.<br>
+					<input type="radio" name="muziek" value="true"> geluidsinstallatie en microfoon.<br>
+					<input type="radio" name="presentatie" value="true"> beamer en scherm.<br>
+				</div class="ordgegevens"><br>
+				<div class="endform">
+					<input type="radio" name="nieuwsbrief" value="true"> Ik wil de nieuwsbrief ontvangen en op de hoogte blijven van evantuele acties<br>
+					<input type="radio" name="Voorwaarden" value="true" required> Ik ben akkoord met de algemene voorwaarden<br>
+					<input type="submit" value="Submit">
+					<input type="reset" value="Reset">
+				</div class="endform">
+			</form>
+			
+        </div class="main">
+		
+        <div class="footer">
+			<img class="logo2" src="http://www.restaurantoudleusden.nl/uploads/2/images/RestaurantOudLeusden-logo.png">
+			<img class="footerimg" src="https://yt3.ggpht.com/-v0soe-ievYE/AAAAAAAAAAI/AAAAAAAAAAA/OixOH_h84Po/s900-c-k-no-mo-rj-c0xffffff/photo.jpg"/>
+			<img class="footerimg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO0fd_AoY8iXQ8PYjEwd3yJiNAZMckqY-LHpKclcWVceaoAmFL"/>
+			<img class="footerimg" src="https://www.facebook.com/images/fb_icon_325x325.png"/>
+			<p class="copyright" >Copyright &copy;2017 <i>ontworpen door:Walter van Kempen, Julian Pasker.</i> Alle rechten voorbehouden.</p>
+        </div class="footer">
+		
+    </body>
+	
+</html>
